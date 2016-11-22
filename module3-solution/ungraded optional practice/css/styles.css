@@ -1,0 +1,122 @@
+/* Start coding at 11.16 pm , 18-11-2016 */
+/* font family */
+
+@font-face {
+  font-family: homestead-display;
+  src: url("../fonts/homestead-display.ttf")  format('truetype');      
+} 
+@font-face {
+  font-family: Raleway Thin;
+  src: url("../fonts/Raleway Thin.otf")  format('opentype');      
+} 
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #8C4646;
+  font-family: 'Oxygen', sans-serif;
+}
+/* navbar */
+#header-nav {
+  background-color: #3F303F;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Food LLC*/
+  font-family: homestead-display , sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #8C4646;
+}
+#collapsable-nav {
+    border: 0;
+    border-bottom: 1px solid #3F303F;
+}
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+#nav-list a {
+    font-family: 'Open Sans', sans-serif;
+	color: #000;
+	text-align: center;
+}
+#nav-list a:hover {
+  background: #3F303F;
+  color: white;
+}
+.navbar-header button.navbar-toggle {
+     clear: both;
+     margin-top: -35px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{ /* ÌÃ»  €Ì— ·Ê‰ ⁄‰œ «·÷€ÿ ⁄·Ï «·“— √Ê ÿ›Ê «·„«Ê”*/
+	background-color: #ecf0f1;
+}
+.nn3 {
+   width: 100%;
+   background-color: #e67e22;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+/* navbar end */
+ /* header  */
+#head { /* Food Menu */
+    font-family: Raleway Thin , sans-serif;
+    width: 250px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+} 
+
+/* header end */
+/* start content */
+
+#p1, #p2, #p3 {
+    padding: 75px 20px 20px 20px;
+    text-align: justify;
+    background-color: #3F303F;
+}
+.hss {
+    font-family: Raleway Thin , sans-serif;
+    height: 45px;
+    position: relative;
+    margin-bottom: -44px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:  #8e44ad;
+
+}
+#p2 span {
+    color: aliceblue;
+    background-color: aqua;
+}
+/* end content */
+
+/********** Medium devices only **********/
+@media (min-width: 1199px) {
+.row {
+    height: 720px;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+      
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
